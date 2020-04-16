@@ -27,12 +27,15 @@ NodePort:                 <unset>  31511/TCP
 Endpoints:                172.17.0.9:3000
 Session Affinity:         None
 External Traffic Policy:  Cluster
-9. My minikube IP was 192.168.106.133
-http://192.168.106.133:31511/report   shows the report (http get)
-http://192.168.106.133:31511/data      lists all data (http get)
 ```
 <br />
 <i>Check out the NodePort information</i> <br />
+
+## 9. My minikube IP was 192.168.106.133
+
+> http://192.168.106.133:31511/report   shows the report (http get)
+
+> http://192.168.106.133:31511/data      lists all data (http get)
 
 > POST to http://192.168.106.133:31511/data sample json below to insert data to database
 
